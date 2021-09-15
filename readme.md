@@ -33,7 +33,7 @@ Onde para cada apresentação de tela a mesma apresenta uma mudança no design a
 
 <div align="center">
   <img src="" alt="Projeto Login" title="Projeto Login" width="600" />
-
+</div>
 ---
 
 ## 📂 Instalações e usos
