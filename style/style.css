@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
+:root {
+    --cor1: #91B3BA;
+    --cor2: #3C7A89;
+    --cor3: #6e3667;
+    --cor4: #7E6C6C;
+    --cor5: #050505;
+    --cor6: #ABAFAF;
+
+    --font-padrao: 'Poppins', sans-serif;
+    --font-titulo: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+body {
+    font-family: var(--font-padrao);
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+.apresentacao {
+    height: 25%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/25/21/13/nebula-5602572_960_720.jpg);
+    padding: 20px 40px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.apresentacao h1 {
+    font-family: var(--font-titulo);
+    font-size: 20px;
+}
+.apresentacao p, h1 {
+    color: white;
+    max-width: 300px;
+}
+.login {
+    background-color: whitesmoke;
+    padding: 20px 50px;
+
+    color: var(--cor4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.login h2 {
+    font-family: var(--font-titulo);
+    font-size: 20px;
+    color: var(--cor2);
+    padding-bottom: 10px;
+}
+.campologin {
+    padding: 10px 0;
+    margin: 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+label {
+    font-size: 16px;
+}
+input {
+    height: 30px;
+    width: 96%;
+    border-style: solid;
+    border-color: var(--cor6);
+    border-radius: 4px;
+    
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    color: var(--cor5);
+}
+input#usuario {
+    margin-bottom: 12px;
+}
+.recuperar {
+    font-size: 12px;
+    margin: 5px 0 12px;
+}
+.recuperar a {
+    color: var(--cor3);
+}
+.botao {
+    height: 40px;
+    width: 98%;
+    margin: 10px 0;
+    
+    border: none;
+    background-color: var(--cor2);
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 16px;
+
+    cursor: pointer;
+}
+.cadastrar {
+    margin: 20px 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-end;
+}
+.cadastrar a {
+    font-weight: bold;
+    font-size: 12px;
+    color: var(--cor3);
+}
+@media only screen and (min-width: 415px) and (max-width: 767px){
+    body {
+        background-color: white
+    }
+    .grupo1{
+        margin: 5% auto;
+        width: 350px;
+    }
+    .apresentacao {
+        border-radius: 8px 8px 0 0;
+        padding: 10px 40px;
+    }
+    .apresentacao h1, .login h2{
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .apresentacao p, label, input, .botao {
+        font-size: 14px;
+        width: 250px;
+    }
+    .login {
+        padding: 10px 40px;
+    }
+    input#usuario {
+        margin: 0 0 8px;
+    }
+    .recuperar, .cadastrar {
+        margin: 5px 0 8px;
+    }
+    .botao {
+        margin: 5px 0px;
+        height: 30px;
+        width: 260px;
+    }
+    .recuperar a, .cadastrar a {
+        font-size: 12px;
+    }
+    .cadastrar p {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 768px){
+    body {
+        background-color: white;
+    }
+    .grupo1 {
+        font-size: 14px;
+        width: 500px;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .apresentacao {
+        height: 340px;
+        width: 250px;
+        border-radius: 10px 0 0 10px;
+        padding: 20px 25px 10px;
+    }
+    .login {
+        height: 330px;
+        width: 250px;
+        border-radius: 0 10px 10px 0;
+        padding: 20px 30px;
+    }
+    .botao {
+        height: 30px;
+        font-size: 14px;
+    }
+    .apresentacao h1, .login h2 {
+        font-size: 16px;
+    }
+    .recuperar a, .cadastrar a {
+        font-size: 12px;
+    }
+    .apresentacao p, label, input, .cadastrar p {
+        font-size: 14px;
+    }
+}
