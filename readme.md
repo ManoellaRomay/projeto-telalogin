@@ -44,7 +44,7 @@ Você pode também clonar ou fazer o downlod desse repositório:
 
 ```
 # Clone o repositório
-$ git clone 
+$ git clone https://github.com/ManoellaRomay/projeto-telalogin/blob/main/readme.md
 ```
 
 <h3 align="center">Manoella Romay</h3>
