@@ -1,6 +1,5 @@
-<align= "center">
 # Projeto Login
-<align= "center">
+
 ## Estudos de Flexbox e Media queries
 
 ### 😃 Objetivo
@@ -9,7 +8,7 @@ Após estudos iniciais de Flexbox e Media queries vi a necessidade de fazer um p
 
 ---
 
-## 💻 Tecnologias
+### 💻 Tecnologias
 
 Esse projeto foi desenvolvido com:
 
@@ -33,7 +32,7 @@ Onde para cada apresentação de tela a mesma apresenta uma mudança no design a
 
 ---
 
-## 📂 Instalações e usos
+### 📂 Instalações e usos
 
 Para acessar o site [clique aqui](https://projeto-telalogin.vercel.app/)
 
@@ -45,4 +44,4 @@ $ git clone https://github.com/ManoellaRomay/projeto-telalogin/blob/main/readme.
 
 ```
 
-<h3 align="center">Manoella Romay</h3>
+### Manoella Romay
