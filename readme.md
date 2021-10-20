@@ -1,7 +1,7 @@
 <h1 align= "center">
 Projeto Login </h1>
 <h2 align= "center">
-Estudos de Flexbox e Media queries
+Estudos de Flexbox e Media queries </h2>
 
 ### 😃 Objetivo
  
